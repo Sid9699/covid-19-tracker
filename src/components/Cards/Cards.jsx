@@ -10,7 +10,7 @@ const Cards = ({ data }) => {
     return "Loading...";
   }
   return (
-    <div style={cx(styles.container)}>
+    <div style={styles.container}>
       <Grid container spacing={3} justify="center">
         <Grid
           item
